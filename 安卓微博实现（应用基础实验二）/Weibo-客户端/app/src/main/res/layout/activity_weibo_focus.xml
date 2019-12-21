@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout_followed"
+    android:layout_width="match_parent"
+    android:background="#FFFFCD"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/followed_weibo_list_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已关注用户的微博"/>
+
+                <LinearLayout
+                    android:id="@+id/followed_weibo_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    >
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/all_weibo_followed"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_button"
+                android:textStyle="bold"
+                android:text="所有微博"/>
+
+            <Button
+                android:id="@+id/followed_weibo_followed"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_button"
+                android:textStyle="bold"
+                android:text="关注微博"/>
+
+            <Button
+                android:id="@+id/write_weibo_followed"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_button"
+                android:textStyle="bold"
+                android:text="写微博"/>
+
+            <Button
+                android:id="@+id/my_personal_followed"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_button"
+                android:textStyle="bold"
+                android:text="我的账号"/>
+
+            <Button
+                android:id="@+id/back_to_top_followed"
+                android:layout_width="50dp"
+                android:background="@drawable/shape_button"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="↑"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

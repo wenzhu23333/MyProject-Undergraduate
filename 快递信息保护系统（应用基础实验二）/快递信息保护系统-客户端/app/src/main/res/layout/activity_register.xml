@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="注册"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:padding="15dip" >
+
+        <TextView
+            android:id="@+id/tv_user_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="帐号"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_user_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_user_register"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="用户名"
+            android:inputType="text"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_pass_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_user_register"
+            android:layout_marginTop="8dp"
+            android:text="密码"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_pass_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pass_register"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tv_pass_register2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_pass_register"
+            android:layout_marginTop="8dp"
+            android:text="确认密码"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_pass_register2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pass_register2"
+            android:inputType="textPassword"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:password="true"
+            android:hint="密码"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/MailBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_pass_register2"
+            android:layout_marginTop="8dp"
+            android:text="输入手机号"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_mail_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MailBox"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:hint="手机号"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_mail_register"
+            android:layout_marginTop="8dp"
+            android:text="身份证号"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_idcard_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idcard"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:hint="身份证"
+            android:singleLine="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/attention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_idcard_register"
+            android:layout_marginTop="8dp"
+            android:text="注：只能注册快递员"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignRight="@id/et_mail_register"
+            android:layout_below="@id/et_idcard_register"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#4cc05f"
+            android:drawablePadding="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="注册"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</LinearLayout>

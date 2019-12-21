@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_entries">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+    </string-array>
+    <string-array name="list_entries_value">
+        <item>Fahrenheit1</item>
+        <item>Celsius1</item>
+    </string-array>
+    <string-array name="list_entries_value2">
+        <item>Fahrenheit2</item>
+        <item>Celsius2</item>
+    </string-array>
+</resources>
