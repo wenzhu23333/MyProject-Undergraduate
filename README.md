@@ -3,5 +3,4 @@ by YWZ
 2019.12.21
 
 联系方式：
-QQ：769586919
 Email：wenzhu23333@gmail.com
