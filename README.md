@@ -2,5 +2,4 @@
 by YWZ
 2019.12.21
 
-联系方式：
-Email：wenzhu23333@gmail.com
+联系方式：wenzhu23333@gmail.com
